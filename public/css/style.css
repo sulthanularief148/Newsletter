@@ -1,0 +1,41 @@
+#container {
+    display: inline-flex;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+   
+    margin-left: 35%;
+    margin-top: 10%;
+}
+body {
+    background-image: url("/images/bg-img.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.child {
+    margin: 0 auto;
+    margin-top: 20%;
+    padding: 10px;
+    
+}
+input[type="text"] {
+    height: 30px;
+    width: 400px;
+    margin-bottom: 15px;
+}
+input[type="date"] {
+    height: 30px;
+    width: 400px;
+    margin-bottom: 15px;
+}
+input[type="email"] {
+    height: 30px;
+    width: 400px;
+    margin-bottom: 50px;
+}
+.btn {
+    height: 30px;
+    width: 400px;
+    background-color: #008CBA;
+}
